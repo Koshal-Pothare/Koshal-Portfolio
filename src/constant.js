@@ -102,29 +102,8 @@ export const SkillsInfo = [
 
 
 export const ProjectsInfo = [
-  {
+   {
     id: 0,
-    name: "Appointment Scheduler",
-    description:
-      "A web application that allows users to schedule and manage appointments efficiently with features like calendar integration and email reminders.",
-    image: Appt,
-    githubLink: "https://github.com/Koshal765/appointment",
-    liveLink: "https://appointment-jet.vercel.app/",
-    technologies: ["JavaScript","React JS", "TailwindCSS", "LocalStorage"],
-    team: "Self Project",
-
-    theme: {
-      border: "border-emerald-500/40",
-      shadow: "hover:shadow-[0_0_40px_rgba(16,185,129,.35)]",
-      badge: "bg-emerald-500/20 text-emerald-300",
-      title: "text-emerald-300",
-      gradient: "from-emerald-500 to-cyan-500",
-      glow: "bg-emerald-500/20",
-    },
-  },
-
-  {
-    id: 1,
     name: "WildSprout Beauty",
     description:
       "WildSprout Beauty is a modern skincare website showcasing a curated range of natural products.",
@@ -142,8 +121,10 @@ team: "Self Project",
       glow: "bg-amber-500/20",
     },
   },
+  
+  
    {
-  id: 2,
+  id: 1,
   name: "ATHLaundry",
   description: "A full-stack laundry service web app for scheduling pickups, placing orders, secure online payments, and real-time order tracking with an admin dashboard.",
   image: Laundry,
@@ -161,7 +142,7 @@ team: "Self Project",
   },
 },
 {
-  id: 3,
+  id: 2,
   name: "Nestesy",
   description:
     "A full-stack property rental platform where tenants can explore properties, schedule visits, manage bookings, and save favorites, while hosts manage listings and visits through a dedicated dashboard and admins oversee users, properties, bookings, and platform analytics.",
@@ -187,7 +168,27 @@ team: "Self Project",
     glow: "bg-emerald-500",
   },
 },
+{
+    id: 3,
+    name: "Appointment Scheduler",
+    description:
+      "A web application that allows users to schedule and manage appointments efficiently with features like calendar integration and email reminders.",
+    image: Appt,
+    githubLink: "https://github.com/Koshal765/appointment",
+    liveLink: "https://appointment-jet.vercel.app/",
+    technologies: ["JavaScript","React JS", "TailwindCSS", "LocalStorage"],
+    team: "Self Project",
 
+    theme: {
+      border: "border-emerald-500/40",
+      shadow: "hover:shadow-[0_0_40px_rgba(16,185,129,.35)]",
+      badge: "bg-emerald-500/20 text-emerald-300",
+      title: "text-emerald-300",
+      gradient: "from-emerald-500 to-cyan-500",
+      glow: "bg-emerald-500/20",
+    },
+  },
+,
   {
     id: 4,
     name: "Shayari Sagar",
