@@ -110,7 +110,7 @@ export const ProjectsInfo = [
     image: WSB,
     githubLink: "https://github.com/Koshal765/WidSprout-Beauty",
     liveLink: "https://wild-sprout-beauty.vercel.app/",
-    technologies: [ "React JS","Tailwind", "REST API", "JavaScript", "Spring Boot", "MySQL",  "JWT" ],
+    technologies: [ "React JS","Tailwind", "REST API", "JavaScript", "Spring Boot", "MySQL",  "JWT","GSAP","Framer Motion" ],
 team: "Self Project",
     theme: {
       border: "border-amber-500/40",
